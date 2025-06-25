@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+.saludo-container {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.saludo-titulo h1 {
+    color: #3498db;
+    font-size: 2rem;
+    margin-bottom: 10px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.saludo-subtitulo p {
+    color: #3498db;
+    font-size: 1.2rem;
+    font-family: "Press Start 2P", system-ui;
+}

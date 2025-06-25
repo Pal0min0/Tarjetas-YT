@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap');
+.todo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    background: turquoise;
+    width: 250px;
+    height: auto;
+    border: solid 5px rgb(247, 0, 255);
+    border-radius: 25px;
+    padding: 10px;
+}
+
+
+.imagen {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.Titulo {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 20px;
+    color: rgb(160, 151, 240);
+    text-align: center;
+    margin-top: 10px;
+}
+
+.Texto {
+    font-family: "Pixelify Sans", sans-serif;
+    font-size: 14px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+}
+.lista-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 200px;
+}
